@@ -1,0 +1,29 @@
+.Info {
+  background-color: #ed474a;
+  width: 100%;
+  min-height: 300px;
+  max-height: -webkit-max-content;
+  max-height: -moz-max-content;
+  max-height: max-content;
+  color: #fff;
+}
+
+.Info h1 {
+  text-align: center;
+  padding: 10px;
+}
+
+.Info p {
+  line-height: 1.7;
+}
+
+.Info .paragraph {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.Info .arrow:hover {
+  color: #1b1b1b;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Info.css.map */

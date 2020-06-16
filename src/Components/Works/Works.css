@@ -1,0 +1,85 @@
+.Works {
+  margin: 100px;
+  text-align: center;
+  color: #102336;
+}
+
+.Works h1 {
+  padding: 20px;
+}
+
+.Works .projects {
+  margin: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Works .types {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Works .types a {
+  width: 50%;
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bolder;
+  background-color: #ed474a;
+  border-radius: 10px;
+  padding: 5px 0;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.Works .website img {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  border: 4px solid whitesmoke;
+  cursor: pointer;
+}
+
+.Works .website img:hover {
+  opacity: 0.7;
+}
+
+.Works #illustration {
+  display: none;
+}
+
+.Works #illustration img {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  border-radius: 10px;
+  border: 4px solid whitesmoke;
+  cursor: pointer;
+}
+
+.Works #illustration img:hover {
+  opacity: 0.7;
+}
+/*# sourceMappingURL=Works.css.map */

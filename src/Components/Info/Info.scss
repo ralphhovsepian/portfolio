@@ -1,0 +1,27 @@
+$orange: #ed474a;
+$white: #fff;
+$black: #1b1b1b;
+$darkblue: #102336;
+
+.Info {
+  background-color: $orange;
+  width: 100%;
+  min-height: 300px;
+  max-height: max-content;
+  color: $white;
+  h1 {
+    text-align: center;
+    padding: 10px;
+  }
+  p {
+    line-height: 1.7;
+  }
+  .paragraph {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .arrow:hover {
+    color: $black;
+    cursor: pointer;
+  }
+}

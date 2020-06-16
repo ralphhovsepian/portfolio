@@ -1,0 +1,27 @@
+$orange: #ed474a;
+$white: #fff;
+$black: #1b1b1b;
+$darkblue: #102336;
+
+.Footer {
+  width: 100%;
+  min-height: 300px;
+  max-height: max-content;
+  background-color: $orange;
+  h1 {
+    color: $white;
+    text-align: center;
+    padding: 5%;
+  }
+  .social {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  }
+}
