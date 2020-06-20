@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Works.css';
 import Shortly from '../styling/shortly.png';
 import whereintheworld from '../styling/whereintheworld.png';
+import pizzanini from '../styling/pizzanini.png';
 import illone from '../styling/45.png';
 import illtwo from '../styling/48.png';
 import illthree from '../styling/40.png';
@@ -31,6 +32,12 @@ export class Works extends Component {
           <div className='website'>
             <a href='https://ralphhovsepian.github.io/whereintheworld/'>
               <img src={whereintheworld} alt='where in the world' />
+            </a>
+          </div>
+
+          <div className='website'>
+            <a href='https://ralphhovsepian.github.io/pizzanini/'>
+              <img src={pizzanini} alt='pizza nini' />
             </a>
           </div>
 

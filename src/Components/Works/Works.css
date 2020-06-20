@@ -17,9 +17,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -51,6 +51,10 @@
   padding: 5px 0;
   margin: 5px 0;
   cursor: pointer;
+}
+
+.Works .website {
+  margin: 10px;
 }
 
 .Works .website img {
