@@ -13,15 +13,10 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .Works .types {
@@ -41,7 +36,7 @@
 }
 
 .Works .types a {
-  width: 50%;
+  width: 200px;
   list-style: none;
   text-decoration: none;
   color: #fff;
@@ -54,13 +49,12 @@
 }
 
 .Works .website {
-  margin: 10px;
+  margin: 5% auto;
 }
 
 .Works .website img {
   position: relative;
-  width: 300px;
-  height: 200px;
+  width: 50%;
   border-radius: 10px;
   border: 4px solid whitesmoke;
   cursor: pointer;
@@ -72,12 +66,12 @@
 
 .Works #illustration {
   display: none;
+  margin: 5% auto;
 }
 
 .Works #illustration img {
   position: relative;
-  width: 300px;
-  height: 350px;
+  width: 50%;
   border-radius: 10px;
   border: 4px solid whitesmoke;
   cursor: pointer;
@@ -85,5 +79,11 @@
 
 .Works #illustration img:hover {
   opacity: 0.7;
+}
+
+@media screen and (max-width: 510px) {
+  .types a {
+    font-size: 12px;
+  }
 }
 /*# sourceMappingURL=Works.css.map */

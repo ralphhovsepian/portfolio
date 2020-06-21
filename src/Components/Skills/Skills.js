@@ -6,7 +6,7 @@ import { faCode, faPaintBrush, faCog } from '@fortawesome/free-solid-svg-icons';
 export class Skills extends Component {
   render() {
     return (
-      <div className='Skills'>
+      <div className='Skills' id='skills'>
         <div className='skill'>
           <h1>
             <FontAwesomeIcon icon={faCode} />

@@ -12,7 +12,7 @@ import { faCode } from '@fortawesome/free-solid-svg-icons';
 export class Works extends Component {
   render() {
     return (
-      <div className='Works'>
+      <div className='Works' id='works'>
         <h1>My works</h1>
         <div className='types'>
           <a id='websites' onClick={this.props.handleWorks}>

@@ -30,6 +30,12 @@ export class Nav extends Component {
         <div className='menu'>
           <ul>
             <li>
+              <a href='#skills'>Skills</a>
+            </li>
+            <li>
+              <a href='#works'>Works</a>
+            </li>
+            <li>
               <a href='#footer'>Contact</a>
             </li>
           </ul>

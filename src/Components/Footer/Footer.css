@@ -7,12 +7,6 @@
   background-color: #ed474a;
 }
 
-.Footer h1 {
-  color: #fff;
-  text-align: center;
-  padding: 5%;
-}
-
 .Footer .social {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -28,9 +22,19 @@
           justify-content: center;
 }
 
-.Footer img {
-  width: 100px;
-  height: 100px;
+.Footer a {
+  text-decoration: none;
+  color: #1b1b1b;
   margin: 10px;
+  color: #102336;
+}
+
+.Footer p {
+  text-align: center;
+  color: #102336;
+}
+
+.Footer .info {
+  padding: 10%;
 }
 /*# sourceMappingURL=Footer.css.map */

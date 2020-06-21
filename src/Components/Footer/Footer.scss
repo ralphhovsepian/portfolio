@@ -8,20 +8,24 @@ $darkblue: #102336;
   min-height: 300px;
   max-height: max-content;
   background-color: $orange;
-  h1 {
-    color: $white;
-    text-align: center;
-    padding: 5%;
-  }
+
   .social {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
   }
-  img {
-    width: 100px;
-    height: 100px;
+  a {
+    text-decoration: none;
+    color: #1b1b1b;
     margin: 10px;
+    color: $darkblue;
+  }
+  p {
+    text-align: center;
+    color: $darkblue;
+  }
+  .info {
+    padding: 10%;
   }
 }
