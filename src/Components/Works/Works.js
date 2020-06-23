@@ -1,11 +1,22 @@
 import React, { Component } from 'react';
 import './Works.css';
+
+//sub components
+import Website from '../Website/Website';
+import Illustration from '../Illustration/Illustration';
+
+//websites
 import Shortly from '../styling/shortly.png';
 import whereintheworld from '../styling/whereintheworld.png';
 import pizzanini from '../styling/pizzanini.png';
+import easybank from '../styling/easybank.png';
+
+//illustrations
 import illone from '../styling/45.png';
 import illtwo from '../styling/48.png';
 import illthree from '../styling/40.png';
+
+//font-awesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode } from '@fortawesome/free-solid-svg-icons';
 
@@ -24,39 +35,14 @@ export class Works extends Component {
           </a>
         </div>
         <div className='projects'>
-          <div className='website'>
-            <a href='https://ralphhovsepian.github.io/shortly-react/'>
-              <img src={Shortly} alt='shortly' />
-            </a>
-          </div>
-          <div className='website'>
-            <a href='https://ralphhovsepian.github.io/whereintheworld/'>
-              <img src={whereintheworld} alt='where in the world' />
-            </a>
-          </div>
+          <Website name='shortly-react' img={Shortly} />
+          <Website name='whereintheworld' img={whereintheworld} />
+          <Website name='pizzanini' img={pizzanini} />
+          <Website name='easybank' img={easybank} />
 
-          <div className='website'>
-            <a href='https://ralphhovsepian.github.io/pizzanini/'>
-              <img src={pizzanini} alt='pizza nini' />
-            </a>
-          </div>
-
-          <div id='illustration'>
-            <a href='#'>
-              <img src={illone} alt='Yoga' />
-            </a>
-          </div>
-
-          <div id='illustration'>
-            <a href='#'>
-              <img src={illtwo} alt='Fiji' />
-            </a>
-          </div>
-          <div id='illustration'>
-            <a href='#'>
-              <img src={illthree} alt='Road Trip' />
-            </a>
-          </div>
+          <Illustration img={illone} />
+          <Illustration img={illtwo} />
+          <Illustration img={illthree} />
         </div>
       </div>
     );
