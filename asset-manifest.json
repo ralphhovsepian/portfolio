@@ -1,28 +1,29 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.01ced256.chunk.css",
-    "main.js": "/portfolio/static/js/main.e650f79e.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.e650f79e.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.b04b828f.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b04b828f.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.a9e46812.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.a9e46812.js.map",
-    "static/js/2.ab3bc1f1.chunk.js": "/portfolio/static/js/2.ab3bc1f1.chunk.js",
-    "static/js/2.ab3bc1f1.chunk.js.map": "/portfolio/static/js/2.ab3bc1f1.chunk.js.map",
+    "static/js/2.a30c7575.chunk.js": "/portfolio/static/js/2.a30c7575.chunk.js",
+    "static/js/2.a30c7575.chunk.js.map": "/portfolio/static/js/2.a30c7575.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.87beb6e1dacf39f6e518398009e68eda.js": "/portfolio/precache-manifest.87beb6e1dacf39f6e518398009e68eda.js",
+    "precache-manifest.75976a1578a4cbcfc879abe817a4e150.js": "/portfolio/precache-manifest.75976a1578a4cbcfc879abe817a4e150.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.01ced256.chunk.css.map": "/portfolio/static/css/main.01ced256.chunk.css.map",
-    "static/js/2.ab3bc1f1.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ab3bc1f1.chunk.js.LICENSE.txt",
+    "static/js/2.a30c7575.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a30c7575.chunk.js.LICENSE.txt",
     "static/media/40.png": "/portfolio/static/media/40.257d995f.png",
     "static/media/45.png": "/portfolio/static/media/45.e2faec3c.png",
     "static/media/48.png": "/portfolio/static/media/48.f7b74956.png",
+    "static/media/easybank.png": "/portfolio/static/media/easybank.d35eb81a.png",
     "static/media/pizzanini.png": "/portfolio/static/media/pizzanini.1a31f1ba.png",
     "static/media/shortly.png": "/portfolio/static/media/shortly.a4f107de.png",
     "static/media/whereintheworld.png": "/portfolio/static/media/whereintheworld.3a008e69.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a9e46812.js",
-    "static/js/2.ab3bc1f1.chunk.js",
+    "static/js/2.a30c7575.chunk.js",
     "static/css/main.01ced256.chunk.css",
-    "static/js/main.e650f79e.chunk.js"
+    "static/js/main.b04b828f.chunk.js"
   ]
 }
