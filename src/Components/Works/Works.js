@@ -7,7 +7,7 @@ import Illustration from '../Illustration/Illustration';
 
 //websites
 import Shortly from '../styling/shortly.png';
-import whereintheworld from '../styling/whereintheworld.png';
+import dictio from '../styling/dictio.png';
 import pizzanini from '../styling/pizzanini.png';
 import easybank from '../styling/easybank.png';
 
@@ -35,10 +35,22 @@ export class Works extends Component {
           </a>
         </div>
         <div className='projects'>
-          <Website name='shortly-react' img={Shortly} />
-          <Website name='whereintheworld' img={whereintheworld} />
-          <Website name='pizzanini' img={pizzanini} />
-          <Website name='easybank' img={easybank} />
+          <Website
+            name='dictio'
+            img={dictio}
+            type='React.js/Firebase/Materialize CSS'
+          />
+          <Website
+            name='shortly-react'
+            img={Shortly}
+            type='React.js/Custom CSS'
+          />
+          <Website
+            name='pizzanini'
+            img={pizzanini}
+            type='React.js/Custom CSS'
+          />
+          <Website name='easybank' img={easybank} type='React.js/Custom CSS' />
 
           <Illustration img={illone} />
           <Illustration img={illtwo} />

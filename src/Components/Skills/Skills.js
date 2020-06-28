@@ -2,45 +2,51 @@ import React, { Component } from 'react';
 import './Skills.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faPaintBrush, faCog } from '@fortawesome/free-solid-svg-icons';
-
+import {
+  faHtml5,
+  faCss3Alt,
+  faSass,
+  faJsSquare,
+  faReact,
+  faNpm,
+  faGithubAlt,
+  faAdobe,
+  faGit,
+} from '@fortawesome/free-brands-svg-icons';
 export class Skills extends Component {
   render() {
     return (
       <div className='Skills' id='skills'>
-        <div className='skill'>
-          <h1>
-            <FontAwesomeIcon icon={faCode} />
-          </h1>
-          <div className='tags'>
-            <p>HTML5</p>
-            <p>CSS3/SASS</p>
-            <p>JS/ES6</p>
-            <p>React.js</p>
-          </div>
+        <h1>Technologies I use</h1>
+        <div>
+          <span>
+            <FontAwesomeIcon icon={faHtml5} size='3x' />
+          </span>
+          <span>
+            <FontAwesomeIcon icon={faCss3Alt} size='3x' />
+          </span>
+          <span>
+            <FontAwesomeIcon icon={faSass} size='3x' />
+          </span>
+          <span>
+            <FontAwesomeIcon icon={faJsSquare} size='3x' />
+          </span>
+          <span>
+            <FontAwesomeIcon icon={faReact} size='3x' />
+          </span>
+          <span>
+            <FontAwesomeIcon icon={faNpm} size='3x' />
+          </span>
+          <span>
+            <FontAwesomeIcon icon={faGithubAlt} size='3x' />
+          </span>
+          <span>
+            <FontAwesomeIcon icon={faAdobe} size='3x' />
+          </span>
+          <span>
+            <FontAwesomeIcon icon={faGit} size='3x' />
+          </span>
         </div>
-        <div className='skill'>
-          <h1>
-            <FontAwesomeIcon icon={faPaintBrush} />
-          </h1>
-          <div className='tags'>
-            <p>Affinity Designer</p>
-            <p>Adobe Illustrator</p>
-            <p>Adobe Photoshop</p>
-            <p>After Effects</p>
-          </div>
-        </div>
-        <div className='skill'>
-          <h1>
-            <FontAwesomeIcon icon={faCog} />
-          </h1>
-          <div className='tags'>
-            <p>VS code</p>
-            <p>NPM</p>
-            <p>Parcel/Webpack</p>
-            <p>Git/Github</p>
-          </div>
-        </div>
-        <div className='line'></div>
       </div>
     );
   }

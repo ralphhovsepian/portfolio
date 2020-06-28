@@ -1,6 +1,23 @@
 .Skills {
-  position: relative;
+  background-color: whitesmoke;
+  width: 100%;
+  padding: 1% 0;
+  min-height: 150px;
+  max-height: -webkit-max-content;
+  max-height: -moz-max-content;
+  max-height: max-content;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: #102336;
+}
+
+.Skills h1 {
+  text-align: center;
+}
+
+.Skills div {
+  padding: 10% 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8,59 +25,18 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.Skills .skill {
-  background-color: whitesmoke;
-  min-width: 300px;
-  max-width: -webkit-max-content;
-  max-width: -moz-max-content;
-  max-width: max-content;
-  margin: 10px;
-  min-height: 250px;
-  max-height: -webkit-max-content;
-  max-height: -moz-max-content;
-  max-height: max-content;
-  border: 2px solid rgba(14, 31, 47, 0.2);
-  border-radius: 5px;
+.Skills div span {
+  padding: 10px;
 }
 
-.Skills .skill h1 {
-  text-align: center;
-  margin: 10px;
-  color: #ed474a;
-}
-
-.Skills .line {
-  position: absolute;
-  width: 50%;
-  border: 5px solid #ed474a;
-  margin: 120px auto;
-  z-index: -1;
-}
-
-.Skills .tags p {
-  min-width: 150px;
-  text-align: center;
-  max-width: -webkit-max-content;
-  max-width: -moz-max-content;
-  max-width: max-content;
-  margin: 20px auto;
-  padding: 5px 0;
-  background-color: rgba(27, 27, 27, 0.9);
-  color: #fff;
-  border-radius: 4px;
-}
-
-@media screen and (max-width: 991px) {
-  .line {
-    display: none;
-  }
+.Skills img {
+  width: 13%;
 }
 /*# sourceMappingURL=Skills.css.map */
