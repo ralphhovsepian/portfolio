@@ -5,7 +5,6 @@ export class Website extends Component {
     let link = `https://ralphhovsepian.github.io/${this.props.name}`;
     return (
       <div className='website'>
-        <h3>{this.props.type}</h3>
         <a href={link}>
           <img src={this.props.img} alt='Preview' />
         </a>
